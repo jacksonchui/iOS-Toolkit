@@ -26,7 +26,7 @@ Set the spacing between elements within the stack view. Represents the minimum s
 
 These distributions will fill the view if not full based of CH priority or make the subviews fit based on CR priority. If there is ambiguity, it will resize based off index in `arrangedSubviews`.
 
-**.fill* will rearrange subviews so they fit the space along the axis.
+*.fill* will rearrange subviews so they fit the space along the axis.
 
 **.fillEqually** makes all controls the same size, ignoring and **BREAKING** intrinsic content size to fill equally. If you add width or height constraint, Xcode will give you a purple ⚠️ noting the ambiguity.
 
