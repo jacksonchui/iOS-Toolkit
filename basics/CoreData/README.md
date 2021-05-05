@@ -35,7 +35,7 @@ NOTE: These extensions allow you to specify where to load CoreData into a privat
 
 ``` swift
 let persistentContainer: NSPersistentContainer = {
-    let container = NSPersistentcontainer(name: "ItemStore")
+    let container = NSPersistentContainer(name: "ItemStore")
     var loadError: Swift.Error?
     container.loadPersistentStores { loadError = $1 }
     try loadError.map { fatalError("Loading of store failed \(error)") }
